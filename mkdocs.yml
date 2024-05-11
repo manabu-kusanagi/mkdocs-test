@@ -1,5 +1,5 @@
 site_name: MkDocs test
-docs_dir: Document
+# docs_dir: Document
 
 # theme
 theme:
@@ -11,16 +11,16 @@ theme:
     - navigation.indexes
     - navigation.top
 
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+# markdown_extensions:
+#   - pymdownx.superfences:
+#       custom_fences:
+#         - name: mermaid
+#           class: mermaid
+#           format: !!python/name:pymdownx.superfences.fence_code_format
   # - plantuml_markdown:
   #     server: http://www.plantuml.com/plantuml
-  - pymdownx.tabbed:
-      alternate_style: true
+  # - pymdownx.tabbed:
+  #     alternate_style: true
 
 plugins:
   search:
