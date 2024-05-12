@@ -22,6 +22,6 @@ theme:
   # - pymdownx.tabbed:
   #     alternate_style: true
 
-plugins:
-  search:
-    lang: 'ja'
+# plugins:
+#   search:
+#     lang: 'ja'
