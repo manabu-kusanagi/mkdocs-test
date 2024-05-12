@@ -2,7 +2,7 @@ name: deploySite
 on:
   push:
     branches:
-      - master 
+      # - master 
       - main
 permissions:
   contents: write
